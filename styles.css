@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600;700&display=swap');
+
+:root{
+    --main-bg-color: #27241D;
+    --text-color:#A4A19C;
+    --text-color-2:#f3f6f4;
+    --first-color:#4D5656;
+    --second-color:#201D18;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+}
+body{
+    background-color: var(--main-bg-color) ;
+    font-family: 'Nunito';
+}
+.all{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    
+}
+
+
+.section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+.card{
+    /* display: block; */
+    margin-top: 20%;
+    width: 300px;
+    /* height: ; */
+    padding: 20px;
+    background-image: linear-gradient(to bottom left, #434343 0%, var(--second-color)   );
+    border-radius: 10px;
+    
+}
+.location{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.city{
+    color: var(--text-color-2);
+}
+.time{
+    color: var(--text-color);
+}
+.icon{
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.weather{
+    color: var(--text-color);
+    font-size: 16px;
+
+}
+.degree{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.test{
+    display: flex;
+    /* align-items: center; */
+}
+.test svg{
+    width: 20px;
+}
+.text-icon{
+    margin-left: 5px;
+}
+.deg{
+    font-size: 35px;
+}
+.second{
+    margin-bottom: 20px;
+}
